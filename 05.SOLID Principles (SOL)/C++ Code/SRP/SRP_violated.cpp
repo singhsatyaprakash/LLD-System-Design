@@ -59,7 +59,7 @@ int main() {
     cart->addProduct(new Product("Laptop", 50000));
     cart->addProduct(new Product("Mouse", 2000));
 
-    cart->printInvoice();  
+    cart->printInvoice();
     cart->saveToDatabase();
 
     return 0;
